@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Ropa\\Proyecto_Equipo_Verde\\TiendaRopa\\TiendaRopa.csproj": {}
+    "D:\\Arapos\\Proyecto_Equipo_Verde\\TiendaRopa\\TiendaRopa.csproj": {}
   },
   "projects": {
-    "D:\\Ropa\\Proyecto_Equipo_Verde\\TiendaRopa\\TiendaRopa.csproj": {
+    "D:\\Arapos\\Proyecto_Equipo_Verde\\TiendaRopa\\TiendaRopa.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Ropa\\Proyecto_Equipo_Verde\\TiendaRopa\\TiendaRopa.csproj",
+        "projectUniqueName": "D:\\Arapos\\Proyecto_Equipo_Verde\\TiendaRopa\\TiendaRopa.csproj",
         "projectName": "TiendaRopa",
-        "projectPath": "D:\\Ropa\\Proyecto_Equipo_Verde\\TiendaRopa\\TiendaRopa.csproj",
+        "projectPath": "D:\\Arapos\\Proyecto_Equipo_Verde\\TiendaRopa\\TiendaRopa.csproj",
         "packagesPath": "C:\\Users\\emax_\\.nuget\\packages\\",
-        "outputPath": "D:\\Ropa\\Proyecto_Equipo_Verde\\TiendaRopa\\obj\\",
+        "outputPath": "D:\\Arapos\\Proyecto_Equipo_Verde\\TiendaRopa\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\emax_\\AppData\\Roaming\\NuGet\\NuGet.Config"

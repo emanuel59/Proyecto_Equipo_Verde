@@ -3,9 +3,8 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace TiendaRopa.Models
-{
-    [Table("t_libro")]
-    public class Producto
+{ [Table("t_ropa")]
+   public class Producto
     {
 
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -13,49 +12,49 @@ namespace TiendaRopa.Models
     [Column("id")]
     public int ID { get; set; }
 
-    [Required(ErrorMessage="Debe ingresar el nombre del libro a registrar")]
+    [Required(ErrorMessage="Debe ingresar el nombre de la ropa a registrar")]
     [Display(Name="Nombre")] 
     [Column("name")]
     public string nombre { get; set; }
 
-    [Required(ErrorMessage="Debe ingresar el autor del libro a registrar")]
-    [Display(Name="Autor del libro")] 
+    [Required(ErrorMessage="Debe ingresar la marca de la ropa a registrar")]
+    [Display(Name="Marca")] 
     [RegularExpression(@"^[a-zA-Z ]*$", ErrorMessage = "Solo se permiten letras")]
-    [Column("autor")]
-    public string autor { get; set; }
+    [Column("marca")]
+    public string marca { get; set; }
 
-    [Required(ErrorMessage="Debe ingresar el idioma del libro a registrar")]
-    [Display(Name="Idioma del producto")] 
-    [Column("idioma")]
-    public string idioma { get; set; }
+    [Required(ErrorMessage="Debe ingresar el tipo de producto  a registrar")]
+    [Display(Name="Tipo del producto")] 
+    [Column("tipo")]
+    public string tipo { get; set; }
 
-    [Required(ErrorMessage="Debe ingresar el ISBN del libro a registrar")]
-    [Display(Name="ISBN del libro")] 
-    [Column("isbn")]
-    public string isbn { get; set; }
+    [Required(ErrorMessage="Debe ingresar el SKU de la ropa a registrar")]
+    [Display(Name="SKU de la ropa")] 
+    [Column("sku")]
+    public string sku { get; set; }
 
-    [Required(ErrorMessage="Debe ingresar la editorial del libro a registrar")]
-    [Display(Name="Editorial del libro")] 
-    [Column("editorial")]
-    public string editorial { get; set; }
+    [Required(ErrorMessage="Debe ingresar modelo de la ropa a registrar")]
+    [Display(Name="Modelo de la ropa")] 
+    [Column("modelo")]
+    public string modelo { get; set; }
 
-    [Required(ErrorMessage="Debe ingresar el precio del libro a registrar")]
+    [Required(ErrorMessage="Debe ingresar el precio de la ropa a registrar")]
     [Display(Name="Precio del producto")] 
     [Column("precio")]
     public Decimal precio { get; set; }
 
-    [Required(ErrorMessage="Debe ingresar las paginas del libro a registrar")]
-    [Display(Name="Paginas del libro")] 
-    [Column("pages")]
-    public int? pagina { get; set; }
+    [Required(ErrorMessage="Debe ingresar la cantidad de ropas a registrar")]
+    [Display(Name="Cantidad de ropas")] 
+    [Column("cantidad")]
+    public int? cantidad { get; set; }
 
-    [Required(ErrorMessage="Debe ingresar la descripcion del libro a registrar")]
-    [Display(Name="Descripcion del libro")] 
+    [Required(ErrorMessage="Debe ingresar la descripcion de la ropa a registrar")]
+    [Display(Name="Descripcion de la ropa")] 
     [Column("descripcion")]
     public string descripcion { get; set; }
 
-    [Required(ErrorMessage="Debe ingresar la imagen del libro a registrar")]
-    [Display(Name="URL de imagen del libro")] 
+    [Required(ErrorMessage="Debe ingresar la imagen de la ropa a registrar")]
+    [Display(Name="URL de imagen de la ropa")] 
     [Column("imagen")]
     public string imagen { get; set; }
 
