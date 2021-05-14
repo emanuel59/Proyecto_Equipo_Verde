@@ -14,6 +14,7 @@ namespace TiendaRopa.Data
         }
 
         public DbSet<TiendaRopa.Models.Producto> Productos { get; set; }
+         public DbSet<TiendaRopa.Models.OrdenDetail> OrdenDetails { get; set; }
     
 
        
