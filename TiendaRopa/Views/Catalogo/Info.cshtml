@@ -11,7 +11,7 @@
                 <div class="card mb-4">
                     <a asp-area="" asp-controller="Home" asp-action="Info">
                     <img class="card-img-top" 
-                    style="height: 500px; width: 100%; " src="@Model.imagen">
+                    style="height: 300px; width: 85%; " src="@Model.imagen">
                     </a>
                 </div>
             </div>
@@ -20,7 +20,7 @@
                 <hr>
                 <ul class="list-unstyled">
                     <li>
-                        <p class="colorForm">Nombre: @Model.marca</p>
+                        <p class="colorForm">Modelo: @Model.modelo</p>
                         <hr>
                     </li>
                     <li>
@@ -33,6 +33,7 @@
                 <h4 style="text-align: center;" class="colorForm">PRECIO</h4>
                 <hr>
                 <ul class="list-unstyled" style="text-align: center;">
+
                     <li class="colorForm">@Model.precio</li>
                     <hr>
                     <li><a asp-controller="Orden" asp-action="AddItem" asp-route-id="@Model.ID" class="btn btn-success"><i class="icofont-cart"></i> Agregar</a></li>
@@ -43,25 +44,25 @@
     
     <div class="container">
         <hr>
-        <h3>Mas ropas</h3>
+        <h3>Ropas parecidos</h3>
         <hr>
         <div class="row">
             <div class="col-md-4">
                 <div class="card mb-4 shadow-sm">
                     <span class="border"><img class="card-img-top" 
-                    style="height: 500px; width: 100%; display: block;" src="~/img/books/brevehistoria.jpg"></span>
+                    style="height: 200px; width: 80%; display: block;" src="~/img/ropas/adidas.jpg"></span>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card mb-4 shadow-sm">
                     <span class="border"><img class="card-img-top" 
-                    style="height: 500px; width: 100%; display: block;" src="~/img/books/cienañosdesoledad.jpg"></span>
+                    style="height: 200px; width: 80%; display: block;" src="~/img/ropas/mujer.jpg"></span>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card mb-4 shadow-sm">
                     <span class="border"><img class="card-img-top" 
-                    style="height: 500px; width: 100%; display: block;" src="~/img/books/stephenkingit.jpg"></span>
+                    style="height: 200px; width: 80%; display: block;" src="~/img/ropas/run.jpg"></span>
                 </div>
             </div>
         </div>
@@ -75,9 +76,8 @@
 
         <div class="row  justify-content-center">
           <div class="col-lg-6">
-            <h3>Lima</h3>
-            <p>Dirección: La Victoria 15018
- </p>
+            <h3>Topitop</h3>
+            <p>Dirección: Av La Molina, 305 Las gardenias </p>
             <p>Telefono: +51 996644587</p>
           </div>
         </div>
@@ -98,7 +98,7 @@
         &copy; Copyright <strong><span> Copyright</span></strong>. Todos los derechos reservador
       </div>
       <div class="credits">
-        Diseñado por <a href="#"> The One</a>
+        Diseñado por <a href="#"> Topitop</a>
       </div>
     </div>
   </footer>	

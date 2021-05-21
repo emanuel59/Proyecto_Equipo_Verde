@@ -15644,6 +15644,21 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Arapos\\Proyecto_Equipo_Verde\\TiendaRopa\\Views\\Catalogo\\Index.cshtml",
+      "TargetPath": "Views\\Catalogo\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Arapos\\Proyecto_Equipo_Verde\\TiendaRopa\\Views\\Orden\\Proceso.cshtml",
+      "TargetPath": "Views\\Orden\\Proceso.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Arapos\\Proyecto_Equipo_Verde\\TiendaRopa\\Views\\Orden\\Carrito.cshtml",
+      "TargetPath": "Views\\Orden\\Carrito.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Arapos\\Proyecto_Equipo_Verde\\TiendaRopa\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
@@ -15656,6 +15671,11 @@
     {
       "FilePath": "d:\\Arapos\\Proyecto_Equipo_Verde\\TiendaRopa\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Arapos\\Proyecto_Equipo_Verde\\TiendaRopa\\Views\\Catalogo\\Info.cshtml",
+      "TargetPath": "Views\\Catalogo\\Info.cshtml",
       "FileKind": "mvc"
     },
     {
